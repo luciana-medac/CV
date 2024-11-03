@@ -2,28 +2,86 @@
 /* body de la página principal junto con todos los elementos div del mismo con estilos aplicados*/
 #bodyIndex {
 
-    background-color:rgb(171, 188, 219);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-family: Arial, sans-serif;
+    background-color: rgb(80, 123, 80);
+    
 
 }
 
 #fondoPrincipal {
 
-    background-color:rgb(106, 154, 243);
+    background-color: rgb(199, 224, 204);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40); /*sirve para aplicar la línea que rodea el nombre con la foto, el grosor de la misma y el color*/
+   
     
 }
 
 #fondoDos {
 
-    width: 800px;
+    
+    background-color: rgb(124, 156, 133);
+    border: 7px solid rgb(61, 70, 40);
+    width: 1000px;
+    height: 1000px;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    
+}
+
+#personales {
+
+    background-color:rgb(199, 224, 204);
+    border: 2px solid rgb(61, 70, 40); 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+
+}
+
+#educacion {
+
+    float: left;
+    width: 450px;
+    background-color: rgb(199, 224, 204);
+    border: 2px solid rgb(61, 70, 40); 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+
+}
+
+#habilidades {
+
+    float: right;
+    width: 450px;
+    background-color: rgb(199, 224, 204);
+    border: 2px solid rgb(61, 70, 40); 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+
 }
 
 #foto {
 
-    border: 3px solid rgb(78, 67, 67); /*sirve para aplicar la línea que rodea el nombre con la foto, el grosor de la misma y el color*/
+    color: rgb(33, 53, 41);
     border-radius: 30px;
     padding-bottom: 20px;
     text-align: center;
+    border: 3px solid rgb(61, 70, 40); 
 
 }
 
@@ -31,6 +89,8 @@
 
 #enlaces {
 
+    
+    clear: both;
     text-align: center;
 
 }
@@ -41,9 +101,38 @@
 
 #bodySobreMi{
 
-    background-color:rgb(171, 188, 219);
-    width: 500px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(80, 123, 80);
+    
+
+}
+
+#unoSobreMi {
+
+    background-color: rgb(124, 156, 133);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+#dosSobreMi {
+
+    background-color: rgb(199, 224, 204);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+#idiomas {
+
+    background-color: rgb(199, 224, 204);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -52,8 +141,28 @@
 /*body de la página contacto junto con todos los elementos div con estilo aplicados*/
 #bodyContacto {
 
-    background-color:rgb(171, 188, 219);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(80, 123, 80);
+
+}
+
+#fondoUnoContacto {
+
+    background-color: rgb(124, 156, 133);
+    width: 900px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+
+#pagContacto {
+
+    background-color: rgb(199, 224, 204);
+    width: 900px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    font-family: Arial, sans-serif;
     text-align: center;
 
 }
@@ -87,8 +196,10 @@
 
 #bodyHorario {
 
-    background-color:rgb(171, 188, 219);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(80, 123, 80);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40);
+    font-family: Arial, sans-serif;
     text-align: center;
 
 }
@@ -106,7 +217,7 @@ table, caption, th, td{
 
 caption {
 
-    background-color: rgb(50, 158, 212);
+    background-color: rgb(102, 153, 102);
     padding: 10px;
 
 }
@@ -119,65 +230,66 @@ caption {
 
 #hora {
 
-    background-color: rgb(50, 158, 212);
+    background-color:rgb(235, 249, 235);
 
 }
 
 #dias {
 
-    background-color: rgb(190, 144, 203);
+    background-color: rgb(182, 227, 182);
 
 }
 
 #soste {
 
-    background-color: rgb(157, 91, 212);
+    background-color: rgb(150, 215, 150);
 
 }
 
 #Digitalización {
 
-    background-color: rgb(219, 81, 240);
+    background-color: rgb(119, 203, 119);
 
 }
 
 #Lenguajes {
 
-    background-color: rgb(99, 99, 251);
+    background-color: rgb(87, 172, 87);
 
 }
 
 #bases {
 
-    background-color: rgb(127, 151, 250);
+    background-color:rgb(217, 227, 217);
 
 }
 
 #sistemas {
 
-    background-color: rgb(155, 76, 229);
+    background-color: rgb(60, 140, 60);
 
 }
 
 #Programación {
 
-    background-color:rgb(168, 61, 61)
+    background-color:rgb(80, 123, 80);
 
 }
 
 #entornos {
 
-    background-color: rgb(44, 104, 231);
+    background-color: rgb(158, 185, 158);
 
 }
 
 #ipe {
 
-    background-color: cornflowerblue;
+    background-color: rgb(190, 214, 190);
 
 }
 
 /*TODOS LOS BOTONES*/
+
 
 
 

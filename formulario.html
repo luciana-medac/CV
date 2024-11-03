@@ -40,11 +40,16 @@
                 <br> <br>
                 Dirección: <input type="text" name="direccion">
 
-            <p> Ciudad:</p> <select name="opciones" size="1">
+            <p> Ciudad: <select name="opciones" size="1">
                 <option value="1">Jaén</option>
                 <option value="2">Almería</option>
                 <option value="3">Málaga</option>
+                <option value="3">Córdoba</option>
+                <option value="3">Sevilla</option>
+                <option value="3">Granada</option>
+                <option value="3">Huelva</option>
             </select>
+            </p>
             <br>
             Contraseña: <input type="password" name="clave" required>
 
@@ -53,8 +58,36 @@
         <fieldset>
 
             <legend>Datos de Interés</legend>
+            <p>
+                Estado civil: <br>
+                <input type="radio" name="estadoCivil" value="c">Casado
+                <input type="radio" name="estadoCivil" value="noC"> No casado
+            </p>
+
+            <p>
+                Hobbies: <br>
+                <input type="checkbox" name="deporte"> Deporte <br>
+                <input type="checkbox" name="cine"> Cine <br>
+                <input type="checkbox" name="lectura"> Lectura <br>
+                <input type="checkbox" name="correr"> Correr <br>
+
+            </p>
 
         </fieldset>
+
+        <fieldset>
+
+            <legend>Comentarios Adicionales</legend>
+            
+            <p>Escribe aquí tus comentarios:</p>
+
+                <textarea name="comentarios" rows="5" cols="35" placeholder="Escribe tus comentarios aquí..."></textarea>
+
+
+        </fieldset> <br>
+        
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="borrar" value="Resetear">
         
        
 
