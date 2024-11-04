@@ -48,7 +48,7 @@
 
 #educacion {
 
-    float: left;
+    float: left; /*Ubica el div de los datos de educación a la izquierda de la página*/
     width: 450px;
     background-color: rgb(199, 224, 204);
     border: 2px solid rgb(61, 70, 40); 
@@ -63,7 +63,7 @@
 
 #habilidades {
 
-    float: right;
+    float: right; /**Ubica el div de los datos de habilidades a la derecha de la página*/
     width: 450px;
     background-color: rgb(199, 224, 204);
     border: 2px solid rgb(61, 70, 40); 
@@ -89,13 +89,11 @@
 
 #enlaces {
 
-    
-    clear: both;
+    clear: both; /*Ubica todos los objetos del div de enlaces debajo de los div, ayuda a que no se sobreponga 
+    o se ubique en el centro de los dos*/
     text-align: center;
 
 }
-
-/*body de la página sobre mi junto con todos los elementos div con estilo aplicados*/
 
 /* CSS DE LA PÁGINA SOBRE MI*/
 
