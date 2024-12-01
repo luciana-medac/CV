@@ -1,0 +1,132 @@
+#bodyHorario {
+    background-color: rgb(80, 123, 80);
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+caption {
+    background-color: rgb(102, 153, 102);
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(61, 70, 40);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(33, 53, 41);
+}
+
+th {
+    background-color: rgb(124, 156, 133);
+    color: white;
+}
+
+td {
+    background-color: rgb(199, 224, 204);
+    transition: background-color 0.3s ease;
+}
+
+/* Colores específicos para las filas de la tabla */
+#hora {
+    background-color: rgb(235, 249, 235);
+}
+
+#dias {
+    background-color: rgb(182, 227, 182);
+}
+
+#soste {
+    background-color: rgb(150, 215, 150);
+}
+
+#Digitalización {
+    background-color: rgb(119, 203, 119);
+}
+
+#Lenguajes {
+    background-color: rgb(87, 172, 87);
+}
+
+#bases {
+    background-color: rgb(217, 227, 217);
+}
+
+#sistemas {
+    background-color: rgb(60, 140, 60);
+}
+
+#Programación {
+    background-color: rgb(80, 123, 80);
+    color: white;
+}
+
+#entornos {
+    background-color: rgb(158, 185, 158);
+}
+
+#ipe {
+    background-color: rgb(190, 214, 190);
+}
+
+/* Efectos de hover para las celdas */
+td:hover {
+    background-color: rgb(124, 156, 133);
+    color: rgb(33, 53, 41);
+}
+
+/* Estilo para los títulos de cada sección dentro de la página */
+h1, h2 {
+    color: rgb(33, 53, 41);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 800px) {
+    #bodyHorario {
+        width: 90%;
+        padding: 10px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    caption {
+        font-size: 1.2em;
+    }
+}
+
+a.botonPagPrincipal {
+    background-color: rgb(124, 156, 133);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /*Controla mejor la transición del color*/
+}
+
+a.botonPagPrincipal:hover {
+    background-color: rgb(61, 70, 40); /* Verde oscuro */
+}

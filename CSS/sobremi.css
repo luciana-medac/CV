@@ -1,0 +1,58 @@
+#bodySobreMi {
+    background-color: rgb(80, 123, 80); /* Mantiene el fondo verde claro consistente */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#unoSobreMi, #dosSobreMi, #idiomas {
+    width: 1000px;
+    border: 7px solid rgb(61, 70, 40); /* Bordes verde oscuro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 20px auto; /* Centrado automático y separación entre secciones */
+    background-color: rgb(199, 224, 204); /* Fondo de color claro verde */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}
+
+#unoSobreMi {
+    background-color: rgb(124, 156, 133); /* Color más suave para esta sección */
+}
+
+#dosSobreMi {
+    background-color: rgb(182, 227, 182); /* Fondo verde muy suave */
+}
+
+#idiomas {
+    background-color: rgb(158, 185, 158); /* Fondo para la sección de idiomas */
+}
+
+a.botonPagPrincipal {
+    background-color: rgb(124, 156, 133); /* Verde intermedio que combina con otros elementos */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+a.botonPagPrincipal:hover {
+    background-color: rgb(61, 70, 40); /* Verde oscuro en el hover */
+    transform: scale(1.05); /* Efecto de aumento de tamaño en hover */
+}
+
+/* Opcional: Estilo para los títulos dentro de las secciones */
+h1, h2, h3 {
+    color: rgb(33, 53, 41); /* Un color verde más oscuro para los títulos */
+    margin-bottom: 10px;
+}
+
+/* Ajustes para la tipografía dentro de los textos */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgb(33, 53, 41); /* Texto en verde oscuro */
+}

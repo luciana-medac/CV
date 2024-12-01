@@ -1,0 +1,157 @@
+#bodyContacto {
+    background-color: rgb(80, 123, 80);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo principal de la página de contacto */
+#fondoUnoContacto {
+    background-color: rgb(124, 156, 133);
+    width: 900px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Fondo para la sección de contacto */
+#pagContacto {
+    background-color: rgb(199, 224, 204);
+    width: 900px;
+    border: 7px solid rgb(61, 70, 40);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mapa de contacto (si hay uno) */
+#mapa {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos generales para la sección de contacto */
+#contacto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para los correos de contacto */
+#correos {
+    width: 300px;
+    background-color: rgb(126, 174, 252);
+    padding: 10px;
+    border: 2px solid rgb(61, 70, 40);
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(33, 53, 41);
+}
+
+/* Estilo para el link al mapa o dirección */
+#linkpaprin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#linkpaprin a {
+    color: rgb(33, 53, 41);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en los enlaces */
+#linkpaprin a:hover {
+    color: rgb(102, 153, 102);
+}
+
+/* Estilos de los botones dentro del formulario (si los hubiera) */
+input[type="submit"],
+input[type="reset"] {
+    background-color: rgb(80, 123, 80);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(61, 70, 40);
+}
+
+/* Estilo para los encabezados */
+h1, h2 {
+    color: rgb(33, 53, 41);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de formulario */
+label {
+    font-size: 1.1em;
+    color: rgb(33, 53, 41);
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(61, 70, 40);
+    font-size: 1em;
+}
+
+/* Estilo para las áreas de texto */
+textarea {
+    height: 100px;
+}
+
+/* Estilo para los botones de enviar y resetear */
+button {
+    background-color: rgb(80, 123, 80);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(61, 70, 40);
+}
+
+    #correos {
+        width: 80%;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+
