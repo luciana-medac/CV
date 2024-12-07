@@ -69,7 +69,7 @@ nav a:hover {
 
 /* Contenido principal (main) */
 main {
-    flex: 1; /* Ocupa más espacio que el aside */
+    flex: 2; /* Ocupa más espacio que el aside */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -89,27 +89,14 @@ main section {
 
 /* Ajusta el ancho de cada sección */
 #personales, #educacion {
-    flex: 0.5;
-    min-width: 300px; /* Asegura que las secciones no se colapsen demasiado */
+    flex: 1;
+    min-width: 400px; /* Asegura que las secciones no se colapsen demasiado */
 }
 
 #habilidades {
     flex: 1 60%; 
 }
 
-/* Aside (enlaces y extras) 
-aside {
-    flex: 0.2; Ocupa menos espacio que el main 
-    background-color: rgb(199, 224, 204);
-    border: 2px solid rgb(61, 70, 40);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
-aside h3 {
-    text-align: center;
-} */
 
 aside a {
     color: rgb(33, 53, 41);

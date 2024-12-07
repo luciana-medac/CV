@@ -72,23 +72,22 @@
     color: rgb(102, 153, 102);
 }
 
-/* Estilos de los botones dentro del formulario (si los hubiera) */
-input[type="submit"],
-input[type="reset"] {
-    background-color: rgb(80, 123, 80);
+
+a.botonPagPrincipal {
+    background-color: rgb(124, 156, 133);
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 10px;
-    border-radius: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /*Controla mejor la transición del color*/
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-    background-color: rgb(61, 70, 40);
+
+a.botonPagPrincipal:hover {
+    background-color: rgb(61, 70, 40); /* Verde oscuro */
 }
 
 /* Estilo para los encabezados */
