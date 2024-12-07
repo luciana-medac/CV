@@ -86,7 +86,7 @@ a.botonPagPrincipal {
 }
 
 /* Texto y etiquetas */
-p, label {
+p{
     color: rgb(33, 53, 41); 
     font-size: 14px;
     margin: 5px 0;

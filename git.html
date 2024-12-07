@@ -1,16 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opciones - GitHub</title>
-    <link rel="stylesheet" href="/CSS/git.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(80, 123, 80);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(124, 156, 133);
+            padding: 20px;
+            border: 3px solid rgb(61, 70, 40);
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: rgb(124, 156, 133);
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgb(61, 70, 40);
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: rgb(33, 53, 41);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: rgb(61, 70, 40);
+        }
+
+        /* Estilos para el div principal */
+        #opcionesDiv {
+            background-color: rgb(199, 224, 204);
+            border: 2px solid rgb(61, 70, 40);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 0 auto;
+            width: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para los botones */
+        .botonGit {
+            display: inline-block;
+            background-color: rgb(124, 156, 133);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .botonGit:hover {
+            background-color: rgb(61, 70, 40);
+        }
+
+        a.botonPagPrincipal {
+            background-color: rgb(124, 156, 133);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            /*Controla mejor la transición del color*/
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover,
+        a.botonPagPrincipal {
+            background-color: rgb(61, 70, 40);
+            /* Verde oscuro */
+        }
+    </style>
 </head>
+
 <body id="bodyOpciones">
     <header>
         <h1>Opciones de GitHub</h1>
     </header>
-    
+
     <main>
         <div id="opcionesDiv">
             <h2>¿Qué deseas hacer?</h2>
@@ -18,10 +105,14 @@
             <a href="documentos/GitHub.pdf" class="botonGit" target="_blank">Ver PDF sobre Subir Repositorios</a>
         </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 - Página Temática</p>
-        <a href="index.html">Volver al Inicio</a>
+    <div>
+    <footer style="height: 110px;">
+        <br>
+        <a href="index.html" class="botonPagPrincipal" style="text-align: right;">Volver al Inicio</a><br>
+        <br>
+        <p>&copy; 2024 Luciana Guadalupe Molina Gregoli. Todos los derechos reservados.</p>
     </footer>
+    </div>
 </body>
+
 </html>
