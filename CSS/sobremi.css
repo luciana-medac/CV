@@ -28,20 +28,20 @@
 }
 
 a.botonPagPrincipal {
-    background-color: rgb(124, 156, 133); /* Verde intermedio que combina con otros elementos */
+    background-color: rgb(124, 156, 133);
     color: white;
     border: none;
     padding: 10px 20px;
+    margin-right: 10px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+    transition: background-color 0.3s ease; /*Controla mejor la transición del color*/
 }
 
+
 a.botonPagPrincipal:hover {
-    background-color: rgb(61, 70, 40); /* Verde oscuro en el hover */
-    transform: scale(1.05); /* Efecto de aumento de tamaño en hover */
+    background-color: rgb(61, 70, 40); /* Verde oscuro */
 }
 
 /* Opcional: Estilo para los títulos dentro de las secciones */

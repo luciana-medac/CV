@@ -38,7 +38,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 nav a {
@@ -56,22 +56,27 @@ nav a:hover {
 
 #foto img {
     border: 5px solid rgb(61, 70, 40); /* Borde interior */
-    box-shadow: 0 0 0 10px rgb(124, 156, 133); /* Borde exterior simulado */
+    box-shadow: 10px rgb(124, 156, 133); /* Borde exterior simulado */
     border-radius: 10px; /* Opcional, redondea los bordes */
 }
 
-
-/* div principal */
-main {
+.container {
+    display: flex; /* Flexbox para organizar los elementos en fila */
+    gap: 20px; /* Espaciado entre main y aside */
+    align-items: flex-start; /* Alineación superior de los elementos */
     margin-top: 20px;
+}
+
+/* Contenido principal (main) */
+main {
+    flex: 2; /* Ocupa más espacio que el aside */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
 }
 
 /* Secciones dentro del main */
-main section{
+main section {
     background-color: rgb(199, 224, 204);
     border: 2px solid rgb(61, 70, 40);
     border-radius: 10px;
@@ -81,37 +86,63 @@ main section{
     box-sizing: border-box;
 }
 
-#personales {
-    text-align: left;
+
+/* Ajusta el ancho de cada sección */
+#personales, #educacion {
+    flex: 1;
+    min-width: 400px; /* Asegura que las secciones no se colapsen demasiado */
 }
 
-#educacion, #habilidades {
-    width: calc(50% - 20px);
+#habilidades {
+    flex: 1 60%; 
 }
 
-/* Aside (enlaces y extras) */
-aside {
-    background-color: rgb(199, 224, 204);
-    border: 2px solid rgb(61, 70, 40);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-aside h3 {
-    text-align: center;
-}
 
 aside a {
     color: rgb(33, 53, 41);
-    text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 aside a:hover {
     color: rgb(255, 255, 255);
+}
+
+.botones img {
+    width: 70px; /* Tamaño de la imagen */
+    height: 80px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.botones img:hover {
+    transform: scale(1.1); /* Agrandar al pasar el cursor */
+}
+
+#divMedac {
+
+    text-align: center;
+
+}
+
+#divGit {
+
+    text-align: center;
+
+}
+
+
+#videoDiv {
+    margin-top: 20px;
+    text-align: center; /* Centra el video */
+}
+
+#videoDiv video {
+    width: 30%; /* Ajusta el ancho del video */
+    max-width: 900px; /* Limita el tamaño máximo */
+    border: 2px solid rgb(61, 70, 40);
+    border-radius: 10px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */

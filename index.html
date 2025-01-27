@@ -32,7 +32,7 @@
             <li><a href="formulario.html">Formulario</a></li>
         </ul>
     </nav>
-
+    <div class="container">
     <!-- Contenido principal -->
     <main>
         <!-- Información personal -->
@@ -72,22 +72,46 @@
             </ul>
             </article>
         </section>
+
+        <hr>
+
     </main>
 
     <!-- Información adicional como enlaces y contacto -->
     <aside>
         <h3>Enlaces de Interés</h3>
         <p>
-            Más sobre mí:
-            <a href="SobreMi.html" target="_self">Sobre Mí</a> <br><br>
-            Enlace a la página official de Medac:
+
+            <!--
+            Enlace a la página official de Medac: 
             <a href="https://medac.es" target="_blank">Instituto Medac</a> <br><br>
             Visitar el repositorio en GitHub:
             <a href="https://github.com/luciana-medac/CV" target="_blank">Repositorio GitHub</a> <br><br>
             Cómo subir un repositorio a GitHub:
             <a href="documentos/GitHub.pdf">GitHub.pdf</a><br>
+            -->
+            <div id="divMedac">
+            <a href="https://medac.es" class="botones">
+                <img src="/IMG/medac.png" alt="Ir a página" />
+            </a>  
+            </div> 
+            <hr>
+            <div id="divGit">
+            <a href="git.html" class="botones">
+                <img src="/IMG/github.png" alt="Ir a página" />
+            </a>
+            </div>
+            
         </p>
     </aside>
+    </div>
+
+    <div id="videoDiv">
+        <video controls loop preload="auto">
+            <source src="video/graduacion.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
 
     <!-- Información de contacto -->
     <footer>

@@ -7,6 +7,7 @@ body {
     display: flex; /* Es una propiedad que se usa para organizar los elementos seguidos de forma eficiente */
     justify-content: center; /* Centra todos los elementos horizontalmente*/
     align-items: center; /*Centra todos elementos verticalmente*/
+    align-items: center; /*Centra todos elementos verticalmente*/ 
 }
 
 /* Formulario */
@@ -84,7 +85,7 @@ a.botonPagPrincipal {
 }
 
 /* Texto y etiquetas */
-p, label {
+p{
     color: rgb(33, 53, 41); 
     font-size: 14px;
     margin: 5px 0;
